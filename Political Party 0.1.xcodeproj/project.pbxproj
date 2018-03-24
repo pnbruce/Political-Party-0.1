@@ -17,6 +17,7 @@
 		5C509F8D20661862005981B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C509F8B20661862005981B2 /* LaunchScreen.storyboard */; };
 		5C509F9820661862005981B2 /* Political_Party_0_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C509F9720661862005981B2 /* Political_Party_0_1Tests.swift */; };
 		5C509FA320661862005981B2 /* Political_Party_0_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C509FA220661862005981B2 /* Political_Party_0_1UITests.swift */; };
+		5C509FF72066426D005981B2 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C509FF62066426D005981B2 /* Star.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5C509F9E20661862005981B2 /* Political Party 0.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Political Party 0.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C509FA220661862005981B2 /* Political_Party_0_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Political_Party_0_1UITests.swift; sourceTree = "<group>"; };
 		5C509FA420661862005981B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C509FF62066426D005981B2 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				5C509F7E20661862005981B2 /* GameScene.sks */,
 				5C509F8020661862005981B2 /* Actions.sks */,
 				5C509F8220661862005981B2 /* GameScene.swift */,
+				5C509FF62066426D005981B2 /* Star.swift */,
 				5C509F8420661862005981B2 /* GameViewController.swift */,
 				5C509F8620661862005981B2 /* Main.storyboard */,
 				5C509F8920661862005981B2 /* Assets.xcassets */,
@@ -272,6 +275,7 @@
 			files = (
 				5C509F8320661862005981B2 /* GameScene.swift in Sources */,
 				5C509F8520661862005981B2 /* GameViewController.swift in Sources */,
+				5C509FF72066426D005981B2 /* Star.swift in Sources */,
 				5C509F7D20661862005981B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
