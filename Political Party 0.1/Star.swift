@@ -11,10 +11,8 @@ import UIKit
 
 open class Star: SKSpriteNode {
     
-    var growing = true;
     var isDragging = false
     var gameTimer : Timer!
-    var pulseSize = 75.0
     
     func endDrag() {
         isDragging = false
@@ -34,6 +32,7 @@ open class Star: SKSpriteNode {
     
     override open func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?)
     {
+        //check to see if a star can be moved. 
         if self.position.y < 505 && self.position.y > -505
         {
         let touch = touches.first
@@ -44,23 +43,6 @@ open class Star: SKSpriteNode {
         position = location
         }
     }
-    
-//    @objc func pulse() {
-//        gameTimer = Timer.scheduledTimer(timeInterval: 0.02, target: self, selector: #selector(pulse), userInfo: nil, repeats: true)
-//
-//        if growing
-//        {pulseSize += 1}
-//        else
-//        {pulseSize -= 1}
-//        
-//        if pulseSize >= 100
-//        {growing = false}
-//        if pulseSize <= 50
-//        {growing = true}
-//        
-//        self.scale(to: CGSize(width: pulseSize, height: pulseSize))
-//        
-//    }
     
     override init(texture: SKTexture?, color: UIColor, size: CGSize) {
         super.init(texture: texture, color: color, size: size)

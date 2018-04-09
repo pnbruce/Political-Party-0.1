@@ -25,8 +25,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     var gameTimer : Timer!
     
-//    let starCategory: UInt32 = 0x1 << 1
-//    let wallCategory: UInt32 = 0x1 << 0
     
     override func didMove(to view: SKView) {
         
@@ -65,23 +63,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         star.physicsBody?.affectedByGravity = false
         
         self.addChild(star)
-        
-//        star.physicsBody?.categoryBitMask = starCategory
-//        star.physicsBody?.contactTestBitMask = wallCategory
-//        star.physicsBody?.collisionBitMask = 0
-        
-//        let animationDuration: TimeInterval = 1.0
-//        var actionArray = [SKAction]()
-//        actionArray.append(SKAction.fadeIn(withDuration: animationDuration))
-//        actionArray.append(SKAction.fadeOut(withDuration: animationDuration))
-//        
-//        
-//        star.run(SKAction.sequence(actionArray))
     }
     
     
     override func update(_ currentTime: TimeInterval)
     {
+        
         // Called before each frame is rendered
     }
 }
